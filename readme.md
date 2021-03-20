@@ -30,11 +30,12 @@
 	- font size, font family
 	- color (name)
 
-- advanced material:
+- advanced topics:
 	- classes/ids
 	- span, div
 	- having a separate css file
 	- :root, css variables, rem, em
+	- css imports, frameworks
 	- color (hex, rgb)
 	- basic javascript (dark mode, side menu)
 	- flexbox

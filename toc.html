@@ -15,6 +15,9 @@
 	<title>Table of Contents </title>
 
 	<style>
+		:root {
+			overflow: visible !important;
+		}
 		.grid {
 			display: flex;
 			flex-direction: row;
@@ -27,13 +30,13 @@
 			min-width: 10rem;
 			padding: 3rem;
 		}
-
 		body {
+			overflow: visible !important;
 			font-size: 32px;
 			font-family: 'Space Mono';
 			background-color: indigo;
 			color: white;
-			position: fixed;
+			position: absolute;
 			left: 5%;
 			top: 10%;
 		}
@@ -56,7 +59,6 @@
 
 <body>
 	<h1>Table of Contents </h1>
-
 	<div class="grid">
 		<div class="child">
 			<a href="./index.html">Intro to HTML</a>
@@ -74,11 +76,30 @@
 		</div>
 		<div class="child">
 			<a href="./file/idea.html">The Idea of a File</a>
+			<ol>
+				<a href="./file/tags-part1.html">
+					<li>Tags, Part 1</li>
+				</a>
+				<a href="./file/tags-part2.html">
+					<li>Tags, Part 2</li>
+				</a>
+		
+			</ol>
+		<br>
+			<p>External Links</p>
+			<ul>
+				<a href="https://www.w3schools.com/code/tryit.asp?filename=GOMG0ECMCNHT">
+					<li>W3Schools Editor</li>
+				</a>
+				<a href="./file/example.html">
+					<li>Example File, based on example.com</li>
+				</a>
+				<a href="http://example.com/">
+					<li>example.com</li>
+				</a>
+			</ul>
 		</div>
 	</div>
-	<footer>
-		<a class="" href="./intro-html/def.html">&rarr;</a>
-	</footer>
 </body>
 
 </html>
