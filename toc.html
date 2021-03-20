@@ -12,17 +12,30 @@
 	<!-- space mono font -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"> 
 
-	<title>Developing a Website, with HTML/CSS </title>
+	<title>Table of Contents </title>
 
 	<style>
+		.grid {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+
+		.child {
+			flex: 1;
+			flex-basis: 10rem;
+			min-width: 10rem;
+			padding: 3rem;
+		}
+
 		body {
-			font-size: 48px;
+			font-size: 32px;
 			font-family: 'Space Mono';
 			background-color: indigo;
 			color: white;
 			position: fixed;
-			left: 10%;
-			top: 40%;
+			left: 5%;
+			top: 10%;
 		}
 
 		a {
@@ -42,8 +55,27 @@
 </head>
 
 <body>
-	<h1 class="animate__animated animate__rubberBand">Developing a Website, <br>with HTML/CSS </h1>
-  
+	<h1>Table of Contents </h1>
+
+	<div class="grid">
+		<div class="child">
+			<a href="./index.html">Intro to HTML</a>
+			<ol>
+				<a href="./intro-html/def.html">
+					<li>Definitions</li>
+				</a>
+				<a href="./intro-html/inspect.html">
+					<li>View Source</li>
+				</a>
+				<a href="./reflect/post-intro.html">
+					<li>Reflection 1</li>
+				</a>
+			</ol>
+		</div>
+		<div class="child">
+			<a href="./file/idea.html">The Idea of a File</a>
+		</div>
+	</div>
 	<footer>
 		<a class="" href="./intro-html/def.html">&rarr;</a>
 	</footer>

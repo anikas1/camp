@@ -17,25 +17,27 @@
 
 ### curriculum
 - observing:
-- material:
+	- [example.com](http://example.com/)
+	- [coolmath](https://www.coolmath.com/)
+	- [w3schools online editor](https://www.w3schools.com/tryit/tryit.asp?filename=tryhtml_default)
+
+- topics:
 	- basic tags (h1, h2, h3, p, b, i)
 	- images
 	- hyperlinks
-	- creating files
-	- margin, padding
-	- px
+	- creating html files
+	- margin, padding, px
+	- font size, font family
 	- color (name)
+
 - advanced material:
 	- classes/ids
-	- span
-	- div
-	- css variables
-	- rem, em
+	- span, div
+	- having a separate css file
+	- :root, css variables, rem, em
 	- color (hex, rgb)
 	- basic javascript (dark mode, side menu)
 	- flexbox
 
 ### project
 - social issue
-
-
